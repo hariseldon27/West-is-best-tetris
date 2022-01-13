@@ -1,0 +1,8 @@
+* {
+	box-sizing: border-box;
+} /* Some browsers add border around webpage, this avoids that */
+
+html, body {
+	margin:0px;
+	padding:0px;
+} /* Default web page values */
