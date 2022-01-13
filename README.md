@@ -14,10 +14,21 @@ I linked to jQuery in the html header if you want to play around with that
 
 And if you figure out or do something cool, share it in the README or Slack :)
 
---------------------------------------------
+*** For sharing in the Readme, pull it from the origin main and then push the changes you
+made to the README ONLY (be careful that you don't push your entire solution) to the main branch. If you do though it'll be fine, we'll figure out how to fix it :) ***
+
+--------------------------------------------------------------------------------------------
 Collaborators: 
-name - linkedin - github
---------------------------------------------
+ - Max Sealey :: github.com/maxsealey :: linkedin.com/in/maxsealey
+ - 
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+--------------------------------------------------------------------------------------------
 
  ⬇ Accomplishments ⬇
 
