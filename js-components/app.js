@@ -15,7 +15,7 @@
 
     Mark Watney
 
-    
+
 
     "In the face of overwhelming odds, I'm left with only one option.
     I'm going to have to science the shit out of this."
@@ -133,14 +133,11 @@ function getUserInput() {
     return result
 } // why doesn't this work when running it in node?
                                 
-displayMessage() 
 
 
 function startGame() {
-
-
-
-    let play = 1 
+    let play = 1
+    // || true
 
     while(play) {
         // do stuff
