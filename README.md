@@ -25,16 +25,11 @@ Collaborators:
  - Rebekah Zhou :: github.com/rebekah-zhou ::
  - Jack Peña :: github.com/jpena925 ::
  - Adeline Almanzar :: github.com/adelinealmanzar ::
- - David Sands :: github.com/DavidMSands ::
- - 
- -
- -
- -
- -
- -
- -
- -
- -
+ - David Sands :: github.com/DavidMSands :: 
+ - Mike Starr :: github.com/personnamedmike ::
+ - Babux :: github.com/babux1 ::
+ - Kenneth Kebaara :: github.com/kkebaara ::
+ - Amelia Risner :: github.com/pallas0 :: 
  -
  -
  -
