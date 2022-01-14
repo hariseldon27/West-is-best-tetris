@@ -9,12 +9,13 @@
     and you’re going to say, this is it. This is how I end. 
     Now, you can either accept that, or you can get to work. 
     That’s all it is. You just begin. You do the math. You solve one 
-    problem and you solve the next one and then the next. 
+    problem, and you solve the next one, and then the next. 
     And if you solve enough problems, you get to come home.”
 
     Mark Watney
 */
 
+// function declaration
 function returnsTetrisBoard() {
 
     const row1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // Each cell in the array (indexes 0-9) should contain either 1 (truthy) or 0 (falsy)
@@ -63,7 +64,8 @@ function returnsTetrisBoard() {
     return fullBoard; 
 }
 
-
+// if you need to copy an array and then modify that copy, keep in mind whether your changes
+// are affecting the original, or just the copy
 
 /*
 Square Block incoming
@@ -152,6 +154,6 @@ function dynamicallyCreateTetrisBoard () {
 
 function displayMessage() {
     let result = window.prompt("Play again", "sure")
-}
+} // why doesn't this work when running it in node?
 
-displayMessage()
+displayMessage() 
