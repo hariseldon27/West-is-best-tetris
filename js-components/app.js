@@ -1,6 +1,19 @@
 /**********************************************
  * Tetris Board version 1
+ * 
+ * America's Sport
  * ********************************************/
+
+/*
+    “At some point, everything’s gonna go south 
+    and you’re going to say, this is it. This is how I end. 
+    Now, you can either accept that, or you can get to work. 
+    That’s all it is. You just begin. You do the math. You solve one 
+    problem and you solve the next one and then the next. 
+    And if you solve enough problems, you get to come home.”
+
+    Mark Watney
+*/
 
 function returnsTetrisBoard() {
 
@@ -20,7 +33,7 @@ function returnsTetrisBoard() {
     const row14 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     const row15 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     const row16 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // what if each cell held an object, so that it could store more information? 
-                                                // What kind of information? Color? The type of tetris block?
+                                                // What kind of information? Color? About block shape?
 
     const fullBoard = [
         row1,
@@ -39,14 +52,18 @@ function returnsTetrisBoard() {
         row14,
         row15,
         row16
-    ] // maybe try iterating through this before coming up a better solution
-    // and pls do cause it sucked to write, it really did
+    ]
+
+    // maybe try iterating through this before coming up a better solution
+    // and pls do cause it also sucked to write
 
     console.log(fullBoard)
     console.table(fullBoard)
 
     return fullBoard; 
 }
+
+
 
 /*
 Square Block incoming
@@ -91,12 +108,20 @@ function returnsSquarePiece() {
 } // idk this might be a function, really just throwing s**t at the walls here tbh
 
 
+
+
+
+
 console.log(returnsTetrisBoard()) // logs to the console the return value of the returnsTetrisBoard function
                                   // the function is called while being passed into the log function method on the console object 
 
+
+
+
+
 function startGame() {
 
-    const play = 1 
+    let play = 1 
 
     while(play) {
         // do stuff
@@ -119,4 +144,14 @@ function startGame() {
 
         play = !play
     }
-} // im so tired i started writing javascript directly into the body of the html file lol
+} 
+
+function dynamicallyCreateTetrisBoard () {
+
+} // returns 2d array of objects
+
+function displayMessage() {
+    let result = window.prompt("Play again", "sure")
+}
+
+displayMessage()
