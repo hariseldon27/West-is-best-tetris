@@ -21,7 +21,16 @@ made to the README ONLY (be careful that you don't push your entire solution) to
 --------------------------------------------------------------------------------------------
 Collaborators: 
  - Max Sealey :: github.com/maxsealey :: linkedin.com/in/maxsealey
+ - Eric Einerson :: github.com/ericeinerson ::
+ - Rebekah Zhou :: github.com/rebekah-zhou ::
+ - Jack Peña :: github.com/jpena925 ::
+ - Adeline Almanzar :: github.com/adelinealmanzar ::
+ - David Sands :: github.com/DavidMSands ::
  - 
+ -
+ -
+ -
+ -
  -
  -
  -
@@ -33,3 +42,4 @@ Collaborators:
 
  ⬇ Accomplishments ⬇
 
+max 1/13-1/14 made idea branch with some jumping off code (may re-name)

@@ -2,6 +2,7 @@
  * Tetris Board version 1
  * 
  * America's Sport
+ * 
  * ********************************************/
 
 /*
@@ -13,6 +14,15 @@
     And if you solve enough problems, you get to come home.”
 
     Mark Watney
+
+    
+
+    "In the face of overwhelming odds, I'm left with only one option.
+    I'm going to have to science the shit out of this."
+
+    Mark Watney
+
+    https://www.youtube.com/watch?v=BABM3EUo990
 */
 
 // function declaration
@@ -65,7 +75,7 @@ function returnsTetrisBoard() {
 }
 
 // if you need to copy an array and then modify that copy, keep in mind whether your changes
-// are affecting the original, or just the copy
+// are affecting the original, or just the copy. and why
 
 /*
 Square Block incoming
@@ -92,7 +102,7 @@ Thank god finally
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Ugh <tab>
+Ugh 
 [0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
 [0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -118,10 +128,17 @@ console.log(returnsTetrisBoard()) // logs to the console the return value of the
                                   // the function is called while being passed into the log function method on the console object 
 
 
-
+function getUserInput() { 
+    let result = window.prompt("Should we start (y/n)?")
+    return result
+} // why doesn't this work when running it in node?
+                                
+displayMessage() 
 
 
 function startGame() {
+
+
 
     let play = 1 
 
@@ -151,9 +168,3 @@ function startGame() {
 function dynamicallyCreateTetrisBoard () {
 
 } // returns 2d array of objects
-
-function displayMessage() {
-    let result = window.prompt("Play again", "sure")
-} // why doesn't this work when running it in node?
-
-displayMessage() 
