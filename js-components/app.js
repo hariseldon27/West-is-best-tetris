@@ -1,7 +1,7 @@
 /**********************************************
  * Tetris Board version 1
  * 
- * America's Sport
+ * America's Greatest Sport
  * 
  * ********************************************/
 
@@ -14,7 +14,6 @@
     And if you solve enough problems, you get to come home.”
 
     Mark Watney
-
 
 
     "In the face of overwhelming odds, I'm left with only one option.
@@ -63,10 +62,7 @@ function returnsTetrisBoard() {
         row14,
         row15,
         row16
-    ]
-
-    // maybe try iterating through this before coming up a better solution
-    // and pls do cause it also sucked to write
+    ] // this also sucked to write
 
     console.log(fullBoard)
     console.table(fullBoard)
@@ -117,7 +113,7 @@ Ugh
 
 function returnsSquarePiece() {
 
-} // idk this might be a function, really just throwing s**t at the walls here tbh
+} // might be a function idk
 
 
 
